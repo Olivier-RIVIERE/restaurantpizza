@@ -9,47 +9,50 @@ Responsive integration of a pizza restaurant website mockup. For educative purpo
 
 ## Screenshots
 
-![App Screenshot](./Capture1.jpg)
+![App Screenshot](./assets/capture/Capture2.png)
 
 
 ## Code Exemple
 
 ```html
-<div id="team">
-                <!-- (div.card>(img+h3+h4+p+div.contact-btn{Contact}))*4 -->
-                <div class="card">
-                    <img src="./assets/img/team2.jpg" alt="John">
-                    <h3>John Doe</h3>
-                    <h4>CEO & Founder</h4>
-                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                    <div class="contact-btn">Contact</div>
-                </div>
-                <div class="card">
-                    <img src="./assets/img/team1.jpg" alt="Jane">
-                    <h3>Jane Doe</h3>
-                    <h4>Architect</h4>
-                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                    <div class="contact-btn">Contact</div>
-                </div>
-                <div class="card">
-                    <img src="./assets/img/team3.jpg" alt="Mike">
-                    <h3>Mike Ross</h3>
-                    <h4>Architect</h4>
-                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                    <div class="contact-btn">Contact</div>
-                </div>
-                <div class="card">
-                    <img src="./assets/img/team4.jpg" alt="Dan">
-                    <h3>Dan Star</h3>
-                    <h4>Architect</h4>
-                    <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-                    </p>
-                    <div class="contact-btn">Contact</div>
-                </div>
-            </div>
+<section id="menusection">
+      <h2>the menu</h2>
+      <div class="navmenu">
+        <ul>
+          <li>
+            <h3 class="titleh3">Pizza</h3>
+          </li>
+          <li>
+            <h3 class="titleh3">Salads</h3>
+          </li>
+          <li>
+            <h3 class="titleh3">Starter</h3>
+          </li>
+        </ul>
+      </div>
+      <div id="themenu">
+        <p class="pizza">marguerita<span>$12.50</span></p>
+        <p class="ingredient">
+          Fresh tomatoes, fresh mozzarella, fresh basil
+        </p>
+        <p class="pizza pizzaborder">Formaggio<span>$15.50</span></p>
+        <p class="ingredient">
+          Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+        </p>
+        <p class="pizza pizzaborder">Chicken<span>$17.00</span></p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+        <p class="pizza pizzaborder">Pineapple'o'clock<span>$16.50</span></p>
+        <p class="ingredient">
+          Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+        </p>
+        <p class="pizza pizzaborder">
+          Meat Town <span id="hot">Hot!</span><span>$20.00</span>
+        </p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+        <p class="pizza pizzaborder">Parma <span id="new">New</span><span>$21.50</span></p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+      </div>
+    </section>
 ```
 ## Languages
 
