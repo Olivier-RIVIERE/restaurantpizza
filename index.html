@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crust Pizza</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="menu">
+      <input type="checkbox" id="check-burger" />
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li> <a href="#menusection">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <label for="check-burger" id="logo">
+        <i class="fa-solid fa-pizza-slice"></i>
+      </label>
+    </nav>
+    <div id="img_header">
+      <h1>
+        thin <br />
+        crust pizza
+      </h1>
+      <p class="block-text-a">let me see the menu</p>
+      <p class="block-text-b">open from 10am to 12pm</p>
+    </div>
+  </header>
+  <main>
+    <section id="menusection">
+      <h2>the menu</h2>
+      <div class="navmenu">
+        <ul>
+          <li>
+            <h3 class="titleh3">Pizza</h3>
+          </li>
+          <li>
+            <h3 class="titleh3">Salads</h3>
+          </li>
+          <li>
+            <h3 class="titleh3">Starter</h3>
+          </li>
+        </ul>
+      </div>
+      <div id="themenu">
+        <p class="pizza">marguerita<span>$12.50</span></p>
+        <p class="ingredient">
+          Fresh tomatoes, fresh mozzarella, fresh basil
+        </p>
+        <p class="pizza pizzaborder">Formaggio<span>$15.50</span></p>
+        <p class="ingredient">
+          Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)
+        </p>
+        <p class="pizza pizzaborder">Chicken<span>$17.00</span></p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+        <p class="pizza pizzaborder">Pineapple'o'clock<span>$16.50</span></p>
+        <p class="ingredient">
+          Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil
+        </p>
+        <p class="pizza pizzaborder">
+          Meat Town <span id="hot">Hot!</span><span>$20.00</span>
+        </p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+        <p class="pizza pizzaborder">Parma <span id="new">New</span><span>$21.50</span></p>
+        <p class="ingredient">Fresh tomatoes, mozzarella, chicken, onions</p>
+      </div>
+    </section>
+    <section id="about">
+      <div id="aboutpizza">
+        <h2>about</h2>
+        <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <div id="testimg">
+          <div id="testleft">
+            <p><span class="chef">The Chef?</span> Mr. Italiano himselfChef</p>
+            <p>We are proud of our interiors.</p>
+          </div>
+          <div id="chefimg"><img src="./assets/img/chef.jpg" alt="Chef"></div>
+        </div>
+        <div id="resto"><img src="./assets/img/onepage_restaurant.jpg" alt="restaurant"></div>
+        <h4>opening hours</h4>
+        <div class="hours">
+          <p>Mon & Tue CLOSED</p>
+          <p>Friday 10:00 - 12:00</p>
+        </div>
+        <div class="hours">
+          <p>Wednesday 10.00 - 24.00</p>
+          <p>Saturday 10:00 - 23:00</p>
+        </div>
+        <div class="hours">
+          <p>Thursday 10:00 - 24:00</p>
+          <p>Sunday Closed</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div>
+        <iframe width="100%" height="350"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=-76.22863769531251%2C39.958175094600094%2C-71.64184570312501%2C41.822501920711105&amp;layer=mapnik"
+          style="border: 1px solid black"></iframe>
+      </div>
+      <h2>contact</h2>
+      <p>Find us at some address at some place or call us at <br>05050515-122330</p>
+      <p><span id="fyi">FYI!</span> We offer full-service catering for any event, large or small. We understand your
+        needs and we
+        will cater
+        the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+      <p id="paragras"><span class="chef">Reserve</span> a table, ask for today's <br> special or just send us a
+        message:</p>
+      <div id="form">
+        <div><input type="name" value="Name"></div>
+        <div><input type="text" value="how many pepole"></div>
+        <div><input type="date" value=""></div>
+        <div><input type="text" value="message \ special requirements"></div>
+        <div><input id="submit" type="submit" value="SEND MESSAGE"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>powerred by</p>
+  </footer>
+</body>
+
+</html>
