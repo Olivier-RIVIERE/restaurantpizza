@@ -9,7 +9,7 @@ Responsive integration of a pizza restaurant website mockup. For educative purpo
 
 ## Screenshots
 
-![App Screenshot](./assets/capture/Capture1.png)
+![App Screenshot](./Capture1.jpg)
 
 
 ## Code Exemple
